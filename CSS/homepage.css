@@ -58,6 +58,10 @@ body {
   text-align: center;
 }
 
+.social-icons {
+  padding: 0px;
+  margin: 0px;
+}
 .social-title {
   color: white;
   font-size: 20px;
@@ -65,10 +69,10 @@ body {
 
 .icons {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin: 10px 20px;
   color: #fff;
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
 }
