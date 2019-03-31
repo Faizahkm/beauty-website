@@ -1,0 +1,91 @@
+
+
+body {
+  background-color: burlywood;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 120px;
+  background-color: Burlywood
+}
+
+
+
+.nav ul {
+  font-family: arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 150px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align:right;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav li {
+
+  display: inline;
+  padding: 0px 10px 0px 0px;
+  font-size: 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+  padding-right: 5px;
+}
+
+.nav li a:hover {
+  background: black;
+}
+
+#logo {
+  color: white;
+  font-size:20px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
