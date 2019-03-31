@@ -89,3 +89,32 @@ h4 {
 .container:hover .overlay {
   opacity: 1;
 }
+
+
+
+.footer-social-icons {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0px;
+  margin: 0px;
+}
+.social-title {
+  color: white;
+  font-size: 20px;
+}
+
+.icons {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  padding: 0px;
+  text-align: center;
+}
