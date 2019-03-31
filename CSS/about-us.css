@@ -1,15 +1,32 @@
-h1 {
-  color: white;
+
+.container {
+  position: relative;
   text-align: center;
   font-family: arial, sans-serif;
   font-weight: bold;
-  font-size: 60px;
-  margin-top: 80px;
+  font-size: 80px;
+  margin-top: 90px;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 body {
   background-color: Burlywood;
 }
+
+
+p{text-align: center;
+font-family: arial;
+font-size: 20px;
+color: #411C05;
+}
+
 
 .nav ul {
   font-family: arial, sans-serif;
@@ -41,6 +58,14 @@ body {
 
 .nav li a:hover {
   background: black;
+}
+
+img {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height:200px;
+  border-radius: 50%;
 }
 
 #googleform {text-align: center;}
