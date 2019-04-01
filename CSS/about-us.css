@@ -49,6 +49,13 @@ color: #411C05;
   font-size: 15px;
 }
 
+#logo {
+  color: white;
+  font-size:20px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
 .nav a {
   color: white;
   text-decoration: none;
@@ -60,6 +67,7 @@ color: #411C05;
   background: white;
   color: Burlywood;
 }
+
 
 img {display: block;
   margin-left: auto;
