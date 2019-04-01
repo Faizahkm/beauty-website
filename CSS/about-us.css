@@ -57,7 +57,8 @@ color: #411C05;
 }
 
 .nav li a:hover {
-  background: black;
+  background: white;
+  color: Burlywood;
 }
 
 img {display: block;

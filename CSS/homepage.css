@@ -40,7 +40,8 @@ body {
 }
 
 .nav li a:hover {
-  background: black;
+  background: white;
+  color: Burlywood;
 }
 
 #logo {
@@ -95,6 +96,8 @@ body {
 
 img {
   opacity: 0.7;
+  border-radius: 10%;
+
 }
 #colour {
   position: absolute;
@@ -102,6 +105,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
+
 }
 
 #shade {
@@ -110,6 +114,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
+
 }
 
 #blog {
@@ -118,4 +123,5 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
+
 }
